@@ -13,3 +13,7 @@ export interface JWTPayload {
 	exp: number;
 	type: 'user' | 'guest';
 }
+
+export interface JWTResponse {
+	jwt: string;
+}
